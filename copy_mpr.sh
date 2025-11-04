@@ -30,7 +30,7 @@ fi
 echo "Kopiruji $file $IMG,$TARGET/$BASENAME"
 BASENAME=$(basename "$MPR")
 
-os9 copy -r "$MPR" "$IMG","$TARGET/$BASENAME"
+os9 copy -lr "$MPR" "$IMG","$TARGET/$BASENAME"
 # os9 copy -r ./img/A1/f1 HD0_cs.img,/f1
 
 echo "Done"

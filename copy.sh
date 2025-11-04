@@ -25,7 +25,7 @@ for file in "$SOURCE"/*; do
     
     # pokud existuje, preskoc dotaz a rovnou prepis
     echo "Kopiruji $file $IMG,$TARGET/$BASENAME"
-    os9 copy -r "$file" "$IMG","$TARGET/$BASENAME"
+    os9 copy -rl "$file" "$IMG","$TARGET/$BASENAME"
     # os9 copy -r ./img/A1/f1 HD0_cs.img,/f1
 done
 
